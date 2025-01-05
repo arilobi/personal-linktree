@@ -11,7 +11,7 @@ The application includes a personalized linktree to share all my social media li
 * And you are all done
 
 ## Live server
-* You can view the web live on [Polarcoderh](https://arilobi.github.io/SkinCare-Project/)
+* You can view the web live on [Polarcoderh](personal-linktree-silk.vercel.app)
 
 ## Known Bugs
 The application works perfectly well, no bugs.
