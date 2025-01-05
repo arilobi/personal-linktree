@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./images/snow.jpg');
+    background-size: cover; /* Ensures the image covers the entire body */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Ensures the body takes the full height of the viewport */
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2); /* Optional semi-transparent background */
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: black;
+    font-family: doto;
+}
+
+p {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 20px;
+    font-family: kodchasan;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(74, 97, 137);
+    padding: 20px 15px;
+    margin: 5px 0;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: kodchasan;
+}
+
+.link-btn:hover {
+    background-color: rgb(111, 136, 179);
+    transform: scale(1.02); /* Make the box slightly larger */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
